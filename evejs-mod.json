@@ -1,0 +1,46 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "category": "玩法",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "自动菜管家：用 /pi 命令和本地网页面板完成行星开发。扫描选星、一键部署 P1 殖民地、自动采集与收菜入机库，严格/宽松模式可切换，投递站默认取开启指令时所在空间站。",
+  "displayName": "自动菜管家",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v0.2.0/pi-manager-0.2.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261108.x"
+  ],
+  "featured": false,
+  "highlights": [
+    "目前版本为试行版，仅能部署P1产物，后续增加P2-P4完整产物及智能规划，多账号规划和一个账号实现完整P4产出（作弊版）。"
+  ],
+  "history": [],
+  "id": "pi-manager",
+  "publishedAt": "2026-11-13",
+  "readme": [
+    "EVEJS 行星工业自动化模组：用游戏内 `/pi` 命令和本机网页面板完成扫描、规划、部署 P1 殖民地，并自动收菜到角色机库。",
+    "---"
+  ],
+  "repo": "https://github.com/jealous123456789/evejs-mod-pi-manager",
+  "requiresRestart": true,
+  "sha256": "676d200cfeb18f03defb429f581b18f42590ea9285675974d779cf726f333a37",
+  "sizeBytes": 113312,
+  "tags": [
+    "行星工业",
+    "PI",
+    "自动化",
+    "网页",
+    "中文"
+  ],
+  "version": "0.2.0"
+}
