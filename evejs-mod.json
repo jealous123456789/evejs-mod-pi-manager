@@ -5,7 +5,7 @@
     "name": "普罗旺斯煎饼果子"
   },
   "category": "玩法",
-  "changelog": "增加了P2及P3的中间产物部署；\n优化了部署算法，大批量部署更快更稳；\n修正了作弊模式会被指挥中心卡住的bug；\n优化了部署逻辑和算法，增加了扫描后行星评价机制；\n优化了产线搭配逻辑，现在不再会因为基础产物不够而造成自动减产减工厂数的死循环；\n增加了方案或部署失败重试机制；\n优化了交互UI，信息可以更准确的显示了。",
+  "changelog": "修复了单产物部署无法生效的bug；\n增加了P0产物不足提示后一键补充部署的通道。",
   "conflicts": [],
   "delisted": false,
   "description": "自动找行星、建产线、收菜补料的行星工业管家。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.1.0/pi-manager-1.1.0.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.1.1/pi-manager-1.1.1.zip"
     }
   ],
   "evejsVersions": [
@@ -43,13 +43,12 @@
     "游戏内输入 `/pi` 是总入口，会显示当前状态和全部指令；输入 `/pi help` 也能查看说明。所有功能都能在游戏聊天框里直接调用。",
     "本机网页面板：游戏内输入 `/pi panel`，聊天会返回本机网页地址和访问口令，复制到浏览器打开。面板和游戏内命令使用同一套数据，可以查看角色、殖民地、方案、四级产物模式、模板和建设进度。",
     "常用命令：`/pi scan 3` 扫描附近行星；`/pi plan 产物名` 生成单个产物方案；`/pi p2 产物名` 生成二级单星产线；`/pi p3 产物名` 生成三级整组；`/pi p4 产物名` 生成整条四级产物链；`/pi build` 开始建设。其他命令用 `/pi help` 查看。",
-    "后续还会验证：真实游戏内的批量建设与断线恢复；角色槽模组和作弊倍率的完整效果需要重新签名后生效。",
-    "---"
+    "后续计划：补充产量倍率调整（作弊模式）"
   ],
   "repo": "https://github.com/jealous123456789/evejs-mod-pi-manager",
   "requiresRestart": true,
-  "sha256": "7477ae7f85396a6710d23da5576df6b5c80b993eb93f0b914f5914577ef4a885",
-  "sizeBytes": 414198,
+  "sha256": "a59497d1f813edb67aab8329198077f6c440ede7314f3184d100e9717fc6dfb1",
+  "sizeBytes": 429067,
   "tags": [
     "行星工业",
     "PI",
@@ -57,5 +56,5 @@
     "网页",
     "中文"
   ],
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
