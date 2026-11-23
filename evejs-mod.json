@@ -5,7 +5,7 @@
     "name": "普罗旺斯煎饼果子"
   },
   "category": "玩法",
-  "changelog": "更新了全新的交互面板（感谢XUAN大佬的优化）\n产物的中文名和游戏保持一致",
+  "changelog": "修复了因版本串不匹配造成无法启用mod的bug",
   "conflicts": [],
   "delisted": false,
   "description": "自动找行星、建产线、收菜补料的行星工业管家。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.2.1/pi-manager-1.2.1.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-pi-manager/releases/download/v1.2.2/pi-manager-1.2.2.zip"
     }
   ],
   "evejsVersions": [
@@ -38,7 +38,7 @@
   ],
   "history": [],
   "id": "pi-manager",
-  "publishedAt": "2026-11-21",
+  "publishedAt": "2026-11-23",
   "readme": [
     "自动菜管家把行星工业从手动摆针、盯产量、来回搬运，变成一键规划、一键建设、自动收菜补料：你只管定目标，找星、建线、喂料、收货都由它代办。",
     "游戏内输入 `/pi` 是总入口，会显示当前状态和全部指令；输入 `/pi help` 也能查看说明。所有功能都能在游戏聊天框里直接调用。",
@@ -47,8 +47,8 @@
   ],
   "repo": "https://github.com/jealous123456789/evejs-mod-pi-manager",
   "requiresRestart": true,
-  "sha256": "1baf810e2647dfe13bfb0b59cf0c1a8abae91abecab44f5d33375f35b2d79f55",
-  "sizeBytes": 552816,
+  "sha256": "11f5a8101094de5a79fcf7df00fb063d3c3b0a55dcc281a6619784b963cde1f6",
+  "sizeBytes": 555079,
   "tags": [
     "行星工业",
     "PI",
@@ -56,5 +56,5 @@
     "网页",
     "中文"
   ],
-  "version": "1.2.1"
+  "version": "1.2.2"
 }
